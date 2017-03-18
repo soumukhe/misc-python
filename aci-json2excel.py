@@ -7,8 +7,7 @@ from openpyxl.utils import  get_column_letter, column_index_from_string # import
 fname = open("ACI-groups.json", "r")   # This is the name of the saved json file from Tetration.
                                        # Must be in same directory
 jfile = fname.read()
-# print jfile
-
+#
 info = json.loads(jfile)
 for headers in info:
     print headers
