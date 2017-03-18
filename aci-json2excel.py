@@ -3,10 +3,9 @@ import openpyxl
 from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font, Color, colors
 from openpyxl.utils import  get_column_letter, column_index_from_string # import column_letter and index from string
 #
-# fout = open('ACIGroups-csv.txt', 'w')  # open a new file for write
 
-
-fname = open("ACI-groups.json", "r")
+fname = open("ACI-groups.json", "r")   # This is the name of the saved json file from Tetration.
+                                       # Must be in same directory
 jfile = fname.read()
 # print jfile
 
